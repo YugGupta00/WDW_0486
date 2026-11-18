@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project: Accessible Student Admission Page </title>
+</head>
+<body>
+    <h1 style = "text-align : center; background-color: rgb(9, 46, 119); color : antiquewhite; ">ABC College Admission 2026 </h1>
+    <h2>Courses and Fees</h2>
+
+    <table width = "100%" border = "1" cellpadding = "10" cellspacing = "0">
+       <caption align = "center">Available Courses</caption>
+       <tr>
+        <th>Course</th>
+        <th>Seats</th>
+        <th>Fees</th>
+       </tr>
+
+       <tr>
+        <td>B.Tech CSE</td>
+        <td>120</td>
+        <td>₹90,000</td>
+       </tr>
+
+       <tr>
+        <td>BCA</td>
+        <td>60</td>
+        <td>₹45,000</td>
+       </tr>
+    </table>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Application Form</legend>
+
+        <label for = "name">Name: </label><br>
+        <input type = "text" id = "name" required>
+        <br><br>
+
+        <label for = "email">Email: </label><br>
+        <input type = "email" id = "email" required>
+        <br><br>
+
+        <label for = "course">Course: </label>
+        <select type = "dropdown" id = "course">
+            <option value = "B.Tech CSE">B.Tech CSE</option>
+            <option value = "bca">BCA</option>
+        </select>
+
+         <br><br>
+
+        <label for = "statement">Statement: </label><br>
+        <textarea id = "statement" row = "20" cols = "40"></textarea>
+        <br><br>
+
+        <button type = "submit">Apply</button>
+
+    </fieldset>
+
+    <p style = "text-align : center; background-color: rgb(9, 46, 119); color : antiquewhite;">&copy; 2026 ABC Colllege </p>
+    
+</body>
+</html>
